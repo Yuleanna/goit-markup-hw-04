@@ -190,7 +190,7 @@ button {
   width: 100%;
   left: 0;
   bottom: -1px;
-  height: 2px;
+  height: 4px;
   background-color: #404bbf;
   position: absolute;
 }
@@ -331,7 +331,7 @@ button {
   color: #f4f4fd;
   text-align: left;
   letter-spacing: 0.02em;
-  max-width: 264px;
+  width: 264px;
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
@@ -401,12 +401,17 @@ button {
 .footer-social-container {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  margin-left: auto;
-  margin-left: auto;
 }
 .social-footer-list {
   display: flex;
-  width: 208px;
-  height: 40px;
+  gap: 16px;
+}
+
+.footer-logo-container {
+  margin-left: 120px;
+}
+
+.footer .container {
+  display: flex;
+  align-items: baseline;
 }
