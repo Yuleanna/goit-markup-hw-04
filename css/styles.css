@@ -290,7 +290,16 @@ button {
   margin-left: 68px;
   margin-right: 68px;
   text-align: center;
+  width: 144px;
 }
+
+.team-social-media {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
 .portfolio-title {
   font-size: 36px;
   font-weight: 500;
@@ -389,22 +398,26 @@ button {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  fill: #fff;
   background-color: #4d5ae5;
   width: 40px;
   height: 40px;
 }
+
 .footer-social-title {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
+  color: #fff;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #fff;
+  margin-bottom: 16px;
 }
 
 .footer-social-container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 .social-footer-list {
   display: flex;
@@ -412,7 +425,7 @@ button {
 }
 
 .footer-logo-container {
-  margin-left: 120px;
+  margin-right: 120px;
 }
 
 .footer .container {
