@@ -385,6 +385,11 @@ button {
 }
 
 .social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #4d5ae5;
   width: 40px;
   height: 40px;
 }
@@ -416,9 +421,4 @@ button {
 }
 .social-link-footer {
   fill: #f4f4fd;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  background-color: #4d5ae5;
 }
